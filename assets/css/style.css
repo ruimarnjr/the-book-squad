@@ -19,7 +19,7 @@ h2 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #FF6B6B;
+    color: #008080;
 
 }
 
@@ -58,4 +58,13 @@ h2 {
 
 .active {
     border-bottom: 1px solid #333333;
+}
+
+/* reading image */
+
+#reading-image {
+    height: 800px;
+    width: 100%;
+    background: url(../images/reading-image.jpg) no-repeat center center;
+    overflow: hidden;
 }
