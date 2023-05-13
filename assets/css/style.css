@@ -101,7 +101,7 @@ h2 {
 }
 
 .creators-left {
-    margin: 30px;
+    margin: 10px;
     display: flex;
     flex-direction: row;
 }
@@ -121,13 +121,12 @@ h2 {
     width: 30%;
     height: 230px;
     margin: 30px;
-    border: 2px solid black;
     padding: 30px;
     margin-left: 0px;
 }
 
 .creators-right {
-    margin: 30px;
+    margin: 10px;
     display: flex;
     flex-direction: row-reverse;
 }
@@ -144,13 +143,12 @@ h2 {
 }
 
 .second-creator-text {
+    position: relative;
     width: 30%;
     height: 230px;
-    margin: 30px;
+    margin: 50px;
     margin-right: 0px;
-    border: 2px solid black;
     padding: 30px;
-
 }
 
 #third-creator {
@@ -168,7 +166,35 @@ h2 {
     width: 30%;
     height: 230px;
     margin: 30px;
-    border: 2px solid black;
     padding: 30px;
     margin-left: 0px;
+}
+
+.first-creator-text>p {
+    text-align: justify;
+    letter-spacing: 2px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.second-creator-text>h2 {
+    margin-right: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.second-creator-text>p {
+    text-align: justify;
+    letter-spacing: 2px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.third-creator-text>p {
+    text-align: justify;
+    letter-spacing: 2px;
+    clear: both;
+    margin-bottom: 50px;
 }
