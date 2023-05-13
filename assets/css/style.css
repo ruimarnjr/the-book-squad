@@ -99,3 +99,76 @@ h2 {
     font-size: 200%;
     text-transform: none;
 }
+
+.creators-left {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#first-creator {
+    background: url(../images/first-creator.jpg) no-repeat center center;
+    width: 230px;
+    height: 230px;
+    float: left;
+    padding: 30px;
+    margin: 30px;
+    margin-right: 0px;
+    border-radius: 50%;
+}
+
+.first-creator-text {
+    width: 30%;
+    height: 230px;
+    margin: 30px;
+    border: 2px solid black;
+    padding: 30px;
+    margin-left: 0px;
+}
+
+.creators-right {
+    margin: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#second-creator {
+    background: url(../images/second-creator.jpg) no-repeat center center;
+    width: 230px;
+    height: 230px;
+    float: right;
+    padding: 30px;
+    margin: 30px;
+    margin-left: 0px;
+    border-radius: 50%
+}
+
+.second-creator-text {
+    width: 30%;
+    height: 230px;
+    margin: 30px;
+    margin-right: 0px;
+    border: 2px solid black;
+    padding: 30px;
+
+}
+
+#third-creator {
+    background: url(../images/third-creator.jpg) no-repeat center center;
+    width: 230px;
+    height: 230px;
+    float: left;
+    padding: 30px;
+    margin: 30px;
+    margin-right: 0px;
+    border-radius: 50%
+}
+
+.third-creator-text {
+    width: 30%;
+    height: 230px;
+    margin: 30px;
+    border: 2px solid black;
+    padding: 30px;
+    margin-left: 0px;
+}
