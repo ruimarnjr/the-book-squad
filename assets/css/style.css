@@ -60,11 +60,42 @@ h2 {
     border-bottom: 1px solid #333333;
 }
 
-/* reading image */
+/* hero image */
 
-#reading-image {
+#hero-image {
     height: 800px;
     width: 100%;
-    background: url(../images/reading-image.jpg) no-repeat center center;
+    background: url(../images/hero-image.jpg) no-repeat center center;
     overflow: hidden;
+}
+
+/* home */
+
+#welcome {
+    text-align: center;
+    margin: 20px;
+    font-size: 200%;
+    text-transform: none;
+}
+
+#center-about {
+    font-family: Roboto, sans-serif;
+    width: 60%;
+    text-align: center;
+    line-height: 25px;
+    clear: both;
+    margin-bottom: 50px;
+    margin: 0 auto;
+    font-size: 150%;
+    color: #333333;
+
+}
+
+/* about us */
+
+#about-us {
+    text-align: center;
+    margin: 20px;
+    font-size: 200%;
+    text-transform: none;
 }
