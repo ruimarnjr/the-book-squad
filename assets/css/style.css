@@ -221,6 +221,7 @@ h2 {
     margin: auto;
     padding: 30px 10 10 30px;
     background-color: black;
+    border-radius: 10px;
 }
 
 .top1 h2 {
@@ -253,6 +254,7 @@ h2 {
     margin: auto;
     background-color: black;
     padding: 30px 10 10 30px;
+    border-radius: 10px;
 }
 
 .bottom1 h2 {
@@ -269,4 +271,65 @@ h2 {
     margin: 10px;
     font-weight: 600;
     color: white;
+}
+
+/* sign up and contact us */
+
+.sign-up-and-contact {
+    display: flex;
+    flex-flow: row;
+    margin: 40px;
+}
+
+.sign-up {
+    width: 50%;
+    height: 500px;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.contact {
+    width: 50%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.signup-form {
+    padding: 50px;
+}
+
+.signup-form h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    display: block;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
 }
