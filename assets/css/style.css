@@ -101,7 +101,7 @@ h2 {
 }
 
 .creators-left {
-    margin: 10px;
+    margin-left: 10px;
     display: flex;
     flex-direction: row;
 }
@@ -120,13 +120,16 @@ h2 {
 .first-creator-text {
     width: 30%;
     height: 230px;
-    margin: 30px;
-    padding: 30px;
-    margin-left: 0px;
+    margin-top: 40px;
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 20px 40px 5px;
+    border: 1px solid #008080;
 }
 
 .creators-right {
-    margin: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row-reverse;
 }
@@ -147,8 +150,10 @@ h2 {
     width: 30%;
     height: 230px;
     margin: 50px;
-    margin-right: 0px;
+    margin-right: 5px;
     padding: 30px;
+    border-radius: 40px 5px 20px;
+    border: 1px solid #008080;
 }
 
 #third-creator {
@@ -172,9 +177,8 @@ h2 {
 
 .first-creator-text>p {
     text-align: justify;
-    letter-spacing: 2px;
     clear: both;
-    margin-bottom: 50px;
+    margin-top: 5px;
 }
 
 .second-creator-text>h2 {
@@ -187,9 +191,8 @@ h2 {
 
 .second-creator-text>p {
     text-align: justify;
-    letter-spacing: 2px;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }
 
 .third-creator-text>p {
@@ -284,13 +287,11 @@ h2 {
 .sign-up {
     width: 50%;
     height: 500px;
-    background-color: rgba(128, 128, 128, 0.5);
 }
 
 .contact {
     width: 50%;
     height: 500px;
-    border: 1px solid black;
 }
 
 .signup-form {
@@ -298,24 +299,25 @@ h2 {
 }
 
 .signup-form h2 {
-    color: #fafafa;
+    color: #008080;
     margin-bottom: 20px;
     text-align: center;
+    text-transform: none;
 }
 
 .text-input {
     background: transparent;
-    color: #fafafa;
+    color: #008080;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+    border: 1px solid #008080;
     border-radius: 2px;
     display: block;
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: #008080;
 }
 
 .join-button {
@@ -324,12 +326,24 @@ h2 {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: #008080;
     color: #fafafa;
     display: block;
 }
 
 .join-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: #008080;
+}
+
+.contact-us h2 {
+    padding: 50px;
+    text-align: center;
+    text-transform: none
+}
+
+.contact-us p {
+    margin-bottom: 30px;
+    text-align: center;
+
 }
