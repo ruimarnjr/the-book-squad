@@ -95,7 +95,7 @@ h2 {
 
 #about-us {
     text-align: center;
-    margin: 20px;
+    margin-top: 100px;
     font-size: 200%;
     text-transform: none;
 }
@@ -345,5 +345,22 @@ h2 {
 .contact-us p {
     margin-bottom: 30px;
     text-align: center;
+
+}
+
+.social-networks {
+    text-align: center;
+
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 
 }
