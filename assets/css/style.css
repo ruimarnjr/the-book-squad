@@ -303,20 +303,19 @@ h2 {
     display: flex;
     flex-flow: row;
     background-color: rgba(128, 128, 128, 0.1);
+    height: 400px;
 }
 
 .sign-up {
     width: 50%;
-    height: 500px;
 }
 
 .contact {
     width: 50%;
-    height: 500px;
 }
 
 .signup-form {
-    padding: 50px;
+    padding: 30px;
 }
 
 .signup-form h2 {
@@ -350,6 +349,7 @@ h2 {
     background-color: #008080;
     color: #fafafa;
     display: block;
+    margin: 0 auto;
 }
 
 .join-button:hover {
@@ -358,7 +358,7 @@ h2 {
 }
 
 .contact-us h2 {
-    padding: 50px;
+    padding: 60px;
     text-align: center;
     text-transform: none
 }
