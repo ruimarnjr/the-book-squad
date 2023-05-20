@@ -385,3 +385,18 @@ h2 {
     color: #3a3a3a;
 
 }
+
+/* footer */
+
+footer {
+    background-color: #008080;
+    width: 100%;
+    height: 60px;
+}
+
+footer>p {
+    color: #fafafa;
+    text-align: center;
+    padding: 1.25em;
+    font-weight: 500;
+}
