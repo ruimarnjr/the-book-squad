@@ -63,7 +63,7 @@ h2 {
 /* hero image */
 
 #hero-image {
-    height: 800px;
+    height: 600px;
     width: 100%;
     background: url(../images/hero-image.jpg) no-repeat center center;
     overflow: hidden;
@@ -112,7 +112,6 @@ h2 {
     height: 230px;
     float: left;
     padding: 30px;
-    margin: 30px;
     margin-right: 0px;
     border-radius: 50%;
 }
@@ -140,7 +139,6 @@ h2 {
     height: 230px;
     float: right;
     padding: 30px;
-    margin: 30px;
     margin-left: 0px;
     border-radius: 50%
 }
@@ -163,8 +161,6 @@ h2 {
     height: 230px;
     float: left;
     padding: 30px;
-    margin: 30px;
-    margin-right: 0px;
     border-radius: 50%
 }
 
@@ -211,14 +207,18 @@ h2 {
 
 .lets-meet {
     text-align: center;
-    margin: 70px;
+    margin: 50px 0 50px 0;
     font-size: 100%;
+}
+
+.lets-meet h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
     text-transform: none;
 }
 
 .lets-meet p {
     margin-top: 15px;
-    margin-bottom: 15px;
 }
 
 .top1 {
@@ -231,10 +231,8 @@ h2 {
 .top {
     width: 250px;
     height: 250px;
-    margin: auto;
     padding: 30px 10 10 30px;
     background-color: rgba(128, 128, 128, 0.1);
-    ;
     border-radius: 10px;
 }
 
@@ -293,7 +291,7 @@ h2 {
     display: flex;
     flex-flow: row;
     background-color: rgba(128, 128, 128, 0.1);
-    margin-bottom: 50px;
+    margin: 70px 0 70px 0;
 }
 
 .sign-up {
