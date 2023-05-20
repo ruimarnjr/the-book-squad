@@ -73,14 +73,13 @@ h2 {
 
 #welcome {
     text-align: center;
-    margin: 20px;
     font-size: 200%;
     text-transform: none;
 }
 
 #center-about {
     font-family: Roboto, sans-serif;
-    width: 60%;
+    width: 100%;
     text-align: center;
     line-height: 25px;
     clear: both;
@@ -101,7 +100,6 @@ h2 {
 }
 
 .creators-left {
-    margin-left: 10px;
     display: flex;
     flex-direction: row;
 }
@@ -128,7 +126,6 @@ h2 {
 }
 
 .creators-right {
-    margin-right: 10px;
     display: flex;
     flex-direction: row-reverse;
 }
@@ -223,17 +220,19 @@ h2 {
 
 .top1 {
     display: flex;
-    flex-flow: row;
     justify-content: space-around;
+    flex-flow: row;
     height: 300px;
+    width: 100%;
 }
 
 .top {
-    width: 250px;
+    width: 50%;
     height: 250px;
     padding: 30px 10 10 30px;
     background-color: rgba(128, 128, 128, 0.1);
     border-radius: 10px;
+    box-sizing: border-box;
 }
 
 .top1 h2 {
@@ -258,15 +257,18 @@ h2 {
     flex-flow: row;
     justify-content: space-around;
     height: 300px;
+    width: 100%;
+    box-sizing: border-box;
+
 }
 
 .bottom {
     width: 250px;
     height: 250px;
-    margin: auto;
     background-color: rgba(128, 128, 128, 0.1);
     padding: 30px 10 10 30px;
     border-radius: 10px;
+
 }
 
 .bottom1 h2 {
@@ -291,7 +293,6 @@ h2 {
     display: flex;
     flex-flow: row;
     background-color: rgba(128, 128, 128, 0.1);
-    margin: 70px 0 70px 0;
 }
 
 .sign-up {
@@ -373,15 +374,4 @@ h2 {
     padding: 5%;
     color: #3a3a3a;
 
-}
-
-footer {
-    color: #fafafa;
-    background-color: #008080;
-    padding: 1em;
-    text-align: center;
-    width: 100%;
-    bottom: 0;
-    right: 0;
-    z-index: 3;
 }
