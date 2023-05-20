@@ -73,30 +73,28 @@ h2 {
 
 #welcome {
     text-align: center;
-    font-size: 200%;
+    font-size: 25px;
     text-transform: none;
+    margin-top: 15px;
 }
 
 #center-about {
     font-family: Roboto, sans-serif;
-    width: 100%;
+    width: 50%;
     text-align: center;
-    line-height: 25px;
     clear: both;
-    margin-bottom: 50px;
     margin: 0 auto;
-    font-size: 150%;
+    font-size: 20px;
     color: #333333;
-
+    margin-top: 15px;
 }
 
 /* about us */
 
 #about-us {
     text-align: center;
-    margin-top: 100px;
-    font-size: 200%;
-    text-transform: none;
+    margin-top: 60px;
+    font-size: 25px;
 }
 
 .creators-left {
@@ -107,6 +105,8 @@ h2 {
 #first-creator {
     background: url(../images/first-creator.jpg) no-repeat center center;
     width: 230px;
+    margin-left: 20px;
+    margin-top: 25px;
     height: 230px;
     float: left;
     padding: 30px;
@@ -133,11 +133,13 @@ h2 {
 #second-creator {
     background: url(../images/second-creator.jpg) no-repeat center center;
     width: 230px;
+    margin-left: 0px;
+    margin-top: 25px;
     height: 230px;
     float: right;
     padding: 30px;
-    margin-left: 0px;
-    border-radius: 50%
+    margin-right: 25px;
+    border-radius: 50%;
 }
 
 .second-creator-text {
