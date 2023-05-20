@@ -26,6 +26,7 @@ h2 {
 #title {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 /* navigation */
@@ -93,8 +94,9 @@ h2 {
 
 #about-us {
     text-align: center;
-    margin-top: 60px;
+    margin-top: 50px;
     font-size: 25px;
+    text-transform: none;
 }
 
 .creators-left {
@@ -105,7 +107,7 @@ h2 {
 #first-creator {
     background: url(../images/first-creator.jpg) no-repeat center center;
     width: 230px;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: 25px;
     height: 230px;
     float: left;
@@ -133,8 +135,8 @@ h2 {
 #second-creator {
     background: url(../images/second-creator.jpg) no-repeat center center;
     width: 230px;
-    margin-left: 0px;
-    margin-top: 25px;
+    margin-right: 30px;
+    margin-top: 30px;
     height: 230px;
     float: right;
     padding: 30px;
@@ -157,10 +159,13 @@ h2 {
 #third-creator {
     background: url(../images/third-creator.jpg) no-repeat center center;
     width: 230px;
+    margin-left: 30px;
+    margin-top: 25px;
     height: 230px;
     float: left;
     padding: 30px;
-    border-radius: 50%
+    margin-right: 0px;
+    border-radius: 50%;
 }
 
 .third-creator-text {
