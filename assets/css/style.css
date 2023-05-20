@@ -227,19 +227,21 @@ h2 {
 
 .top1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-flow: row;
     height: 300px;
     width: 100%;
+
 }
 
 .top {
-    width: 50%;
+    width: 250px;
     height: 250px;
     padding: 30px 10 10 30px;
     background-color: rgba(128, 128, 128, 0.1);
     border-radius: 10px;
     box-sizing: border-box;
+    border: 1px solid #008080;
 }
 
 .top1 h2 {
@@ -262,10 +264,9 @@ h2 {
 .bottom1 {
     display: flex;
     flex-flow: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 300px;
     width: 100%;
-    box-sizing: border-box;
 
 }
 
@@ -275,6 +276,8 @@ h2 {
     background-color: rgba(128, 128, 128, 0.1);
     padding: 30px 10 10 30px;
     border-radius: 10px;
+    border: 1px solid #008080;
+    box-sizing: border-box;
 
 }
 
