@@ -81,11 +81,11 @@ h2 {
 
 #center-about {
     font-family: Roboto, sans-serif;
-    width: 50%;
+    width: 80%;
     text-align: center;
     clear: both;
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 15px;
     color: #333333;
     margin-top: 15px;
 }
@@ -125,6 +125,7 @@ h2 {
     border-radius: 20px 40px 5px;
     border: 1px solid #008080;
     background-color: rgba(128, 128, 128, 0.1);
+    overflow: hidden;
 }
 
 .creators-right {
@@ -177,6 +178,8 @@ h2 {
     border-radius: 20px 40px 5px;
     border: 1px solid #008080;
     background-color: rgba(128, 128, 128, 0.1);
+    overflow: hidden;
+
 }
 
 
@@ -232,6 +235,7 @@ h2 {
     text-align: center;
     font-size: 20px;
     text-transform: none;
+    margin-top: 5px;
 }
 
 .days-and-times li {
@@ -239,7 +243,7 @@ h2 {
     font-size: 20px;
     text-transform: none;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .days-and-times>p {
@@ -422,4 +426,33 @@ footer>p {
     text-align: center;
     padding: 1.25em;
     font-weight: 500;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1200px) {
+    #home {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+        padding: 30px 0;
+        margin: 0
+    }
+
+    .creators-left {
+        padding: 0;
+        clear: both;
+
+    }
+
+    .first-creator-text {
+        width: 50%;
+        margin-right: 20px;
+    }
+
+    .third-creator-text {
+        width: 50%;
+        margin-right: 20px;
+    }
+
 }
