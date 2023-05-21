@@ -486,23 +486,23 @@ footer>p {
     .third-creator-text {
         width: 100%;
         margin-right: 20px;
-        height: 250px;
+        height: 180px;
         text-align: left;
     }
 
     #first-creator {
-        padding: 10px;
-        margin-top: 60px;
+        padding: 0px;
+        margin-top: 30px;
     }
 
     #second-creator {
-        padding: 10px;
-        margin-top: 60px;
+        padding: 0px;
+        margin-top: 30px;
     }
 
     #third-creator {
-        padding: 10px;
-        margin-top: 60px;
+        padding: 0px;
+        margin-top: 30px;
     }
 
     .first-creator-text>p,
@@ -517,7 +517,7 @@ footer>p {
     .second-creator-text {
         width: 50%;
         margin-left: 20px;
-        height: 250px;
+        height: 180px;
         text-align: left;
     }
 
@@ -546,7 +546,13 @@ footer>p {
         font-size: 70%;
     }
 
-    
+    .sign-up {
+        font-size: 10px;
+    }
+
+    .contact {
+        font-size: 15px;
+    }
 
 
 }
