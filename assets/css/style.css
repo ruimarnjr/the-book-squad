@@ -44,7 +44,7 @@ h2 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 40px;
+    margin-right: 20px;
     text-transform: uppercase;
 }
 
@@ -119,8 +119,8 @@ h2 {
 
 .first-creator-text {
     width: 30%;
-    height: 230px;
-    margin-top: 40px;
+    height: 180px;
+    margin-top: 50px;
     padding: 20px;
     margin-left: 10px;
     border-radius: 20px 40px 5px;
@@ -150,8 +150,8 @@ h2 {
 
 .second-creator-text {
     width: 30%;
-    height: 230px;
-    margin-top: 40px;
+    height: 180px;
+    margin-top: 50px;
     padding: 20px;
     margin-right: 10px;
     border-radius: 40px 20px 5px;
@@ -176,8 +176,8 @@ h2 {
 
 .third-creator-text {
     width: 30%;
-    height: 230px;
-    margin-top: 40px;
+    height: 180px;
+    margin-top: 50px;
     padding: 20px;
     margin-left: 10px;
     border-radius: 20px 40px 5px;
@@ -193,6 +193,7 @@ h2 {
     display: inline-block;
     clear: both;
     margin-top: 5px;
+    font-size: 15px;
 
 }
 
@@ -203,12 +204,13 @@ h2 {
 .second-creator-text>p {
     text-align: center;
     margin-top: 5px;
+    font-size: 15px;
 }
 
 .third-creator-text>p {
     text-align: justify;
-    clear: both;
     margin-top: 5px;
+    font-size: 15px;
 }
 
 /* let's meet */
@@ -284,7 +286,7 @@ h2 {
 .top p {
     text-align: center;
     font-size: 85%;
-    margin: 10px;
+    padding: 5px;
     color: #008080;
     font-weight: 600;
 }
@@ -320,7 +322,7 @@ h2 {
 .bottom p {
     text-align: center;
     font-size: 85%;
-    margin: 10px;
+    padding: 5px;
     font-weight: 600;
     color: #008080;
 }
@@ -431,6 +433,8 @@ footer>p {
 
 /* Media queries */
 
+/* For larger to medium screens size from 1200px wide and down */
+
 @media screen and (max-width: 1200px) {
     #home {
         width: 65%;
@@ -469,14 +473,33 @@ footer>p {
         height: 180px;
     }
 
+    .top {
+        width: 21%;
+        height: 70%;
+        font-size: 80%;
+    }
+
+    .bottom {
+        width: 21%;
+        height: 70%;
+        font-size: 80%;
+    }
+
+    .sign-up {
+        font-size: 12px;
+    }
+
+    .contact {
+        font-size: 15px;
+    }
 }
+
 
 /* For medium screen sizes from 950px wide and down */
 
 @media screen and (max-width: 950px) {
     #menu {
-        clear: left;
-        float: left;
+        float: right;
         margin-left: 20px;
         margin-bottom: 20px;
         line-height: 25px;
@@ -553,6 +576,118 @@ footer>p {
     .contact {
         font-size: 15px;
     }
+}
+
+/* For small screen sizes 800px and down */
+
+@media screen and (max-width: 800px) {
+    #menu {
+        float: right;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    .creators-left {
+        display: block;
+    }
+
+    .creators-right {
+        display: block;
+    }
+
+
+    .first-creator-text,
+    .third-creator-text {
+        width: 70%;
+        height: 180px;
+        text-align: center;
+        border-radius: 10%;
+        margin-left: 10%;
+    }
+
+    #first-creator {
+        padding: 0px;
+        margin-left: 20%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #second-creator {
+        padding: 0px;
+        margin-right: 20%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #third-creator {
+        padding: 0px;
+        margin-left: 20%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .first-creator-text>p,
+    .third-creator-text>p,
+    .second-creator-text>p {
+        width: 100%;
+        padding: 0.2em;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .second-creator-text {
+        width: 70%;
+        margin-left: 50px;
+        height: 180px;
+        text-align: center;
+        border-radius: 10%;
+        margin-left: 10%;
+    }
+
+    .days-and-times>p {
+        font-size: 14px;
+    }
+
+    .top1 {
+        display: block;
+    }
+
+    .top {
+        width: 90%;
+        height: 25%;
+        font-size: 50%;
+    }
+
+    .top>h2 {
+        font-size: small;
+        margin-top: 5px;
+    }
+
+    .bottom1 {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .bottom {
+        width: 90%;
+        height: 25%;
+        font-size: 50%;
+    }
+
+    .bottom>h2 {
+        font-size: small;
+        margin-top: 5px;
+    }
+
+    .sign-up {
+        font-size: 10px;
+    }
+
+    .contact {
+        font-size: 15px;
+    }
+
 
 
 }
