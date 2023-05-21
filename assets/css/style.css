@@ -267,6 +267,7 @@ h2 {
     border-radius: 10px;
     box-sizing: border-box;
     border: 1px solid #008080;
+    overflow: hidden;
 }
 
 .top1 h2 {
@@ -303,6 +304,7 @@ h2 {
     border-radius: 10px;
     border: 1px solid #008080;
     box-sizing: border-box;
+    overflow: hidden;
 
 }
 
@@ -439,29 +441,31 @@ footer>p {
 
     .creators-left {
         padding: 0;
-        clear: both;
 
     }
 
-    .first-creator-text {
-        width: 50%;
-        margin-right: 20px;
-    }
-
+    .first-creator-text,
     .third-creator-text {
         width: 50%;
         margin-right: 20px;
+        height: 180px;
+    }
+
+    .first-creator-text>p,
+    .third-creator-text>p,
+    .second-creator-text>p {
+        width: 100%;
+        padding: 0.25em;
     }
 
     .creators-right {
         padding: 0;
-        clear: both;
     }
 
     .second-creator-text {
         width: 50%;
-        margin-left: 20%;
-        float: left;
+        margin-left: 20px;
+        height: 180px;
     }
 
 
