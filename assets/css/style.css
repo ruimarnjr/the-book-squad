@@ -331,16 +331,20 @@ h2 {
 .sign-up-and-contact {
     display: flex;
     flex-flow: row;
+    justify-content: center;
+    align-items: flex-end;
     background-color: rgba(128, 128, 128, 0.1);
     height: 400px;
 }
 
 .sign-up {
     width: 50%;
+    flex-basis: 50%;
 }
 
 .contact {
     width: 50%;
+    flex-basis: 50%;
 }
 
 .signup-form {
@@ -387,13 +391,13 @@ h2 {
 }
 
 .contact-us h2 {
-    padding: 60px;
     text-align: center;
-    text-transform: none
+    text-transform: none;
+    margin-bottom: 100px;
 }
 
 .contact-us p {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     text-align: center;
 
 }
@@ -650,8 +654,21 @@ footer>p {
         margin-left: 10%;
     }
 
+
     .days-and-times>p {
-        font-size: 14px;
+        font-size: 70%;
+    }
+
+    .days-and-times>h2 {
+        font-size: 70%;
+    }
+
+    .days>span {
+        font-size: 70%;
+    }
+
+    .center {
+        margin-top: 30px;
     }
 
     .top1 {
@@ -698,27 +715,30 @@ footer>p {
         margin-top: 5px;
     }
 
+    .sign-up-and-contact {
+        flex-flow: column;
+        height: 600px;
+    }
+
     .sign-up {
         font-size: 10px;
+        width: 100%;
+
     }
 
     .contact {
-        font-size: 5px;
+        font-size: 10px;
+        width: 100%;
     }
 
-    .days-and-times>p {
-        font-size: 70%;
+    .contact-us>h2 {
+        margin-top: 60px;
+        margin-bottom: 30px;
     }
 
-    .days-and-times>h2 {
-        font-size: 70%;
+    .contact-us>p {
+        margin: 10px;
+        ;
     }
 
-    .days>span {
-        font-size: 70%;
-    }
-
-    .center {
-        margin-top: 30px;
-    }
 }
