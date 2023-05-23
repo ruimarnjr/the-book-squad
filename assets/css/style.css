@@ -193,7 +193,7 @@ h2 {
     display: inline-block;
     clear: both;
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 14px;
 
 }
 
@@ -204,13 +204,13 @@ h2 {
 .second-creator-text>p {
     text-align: center;
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .third-creator-text>p {
-    text-align: justify;
+    text-align: center;
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 /* let's meet */
@@ -234,19 +234,18 @@ h2 {
     width: 33%;
 }
 
+.days>span {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
 .days-and-times>h2 {
     text-align: center;
     font-size: 20px;
     text-transform: none;
     margin-top: 5px;
-}
-
-.days-and-times li {
-    text-align: center;
-    font-size: 20px;
-    text-transform: none;
-    margin: 0 auto;
-    margin-top: 15px;
 }
 
 .days-and-times>p {
@@ -510,7 +509,7 @@ footer>p {
         width: 100%;
         margin-right: 20px;
         height: 180px;
-        text-align: left;
+        text-align: center;
     }
 
     #first-creator {
@@ -533,7 +532,7 @@ footer>p {
     .second-creator-text>p {
         width: 100%;
         padding: 0.2em;
-        font-size: 12px;
+        font-size: 13px;
         margin-bottom: 10px;
     }
 
@@ -541,7 +540,7 @@ footer>p {
         width: 50%;
         margin-left: 20px;
         height: 180px;
-        text-align: left;
+        text-align: center;
     }
 
     .days-and-times>p {
@@ -580,7 +579,7 @@ footer>p {
 
 /* For small screen sizes 800px and down */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
     #menu {
         float: right;
         margin-left: 20px;
