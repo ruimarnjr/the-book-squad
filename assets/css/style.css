@@ -580,12 +580,17 @@ footer>p {
 /* For small screen sizes 800px and down */
 
 @media screen and (max-width: 700px) {
+    #title {
+        font-size: 28px;
+        margin-left: 10%;
+    }
+
     #menu {
         float: right;
         margin-left: 20px;
         margin-bottom: 20px;
         line-height: 25px;
-        font-size: 11px;
+        font-size: 8px;
     }
 
     .creators-left {
