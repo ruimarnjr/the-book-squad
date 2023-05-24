@@ -4,7 +4,7 @@ The Book Squad is engaging book club created to foster a love for reading and co
 
 The Book Squad is designed for avid readers and book lovers in Dublin. Whether you're a seasoned bibliophile, a casual reader, or someone looking to explore the world of books, The Book Squad is the ideal community for you. We welcome individuals of all ages, backgrounds, and reading preferences, creating an inclusive environment where diverse perspectives are celebrated.
 
-
+![Responsive Mockup](https://github.com/ruimarnjr/the-book-squad/blob/main/assets/images/the-book-squad.jpg)
 
 ## UX
 
@@ -35,7 +35,8 @@ In this section, you should go over the different parts of your project, and des
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![landing-image](https://github.com/ruimarnjr/the-book-squad/blob/main/assets/images/hero-image.jpg)
+
 
 - __Club Ethos Section__
 
