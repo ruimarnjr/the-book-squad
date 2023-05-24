@@ -4,8 +4,6 @@ The Book Squad is engaging book club created to foster a love for reading and co
 
 The Book Squad is designed for avid readers and book lovers in Dublin. Whether you're a seasoned bibliophile, a casual reader, or someone looking to explore the world of books, The Book Squad is the ideal community for you. We welcome individuals of all ages, backgrounds, and reading preferences, creating an inclusive environment where diverse perspectives are celebrated.
 
-<img >
-
 ## UX
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
