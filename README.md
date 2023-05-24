@@ -56,20 +56,20 @@ In this section, you should go over the different parts of your project, and des
 ![Meeting Times](https://github.com/ruimarnjr/the-book-squad/blob/main/assets/images/lets-meet.jpg)
 ![Genre Boxes](https://github.com/ruimarnjr/the-book-squad/blob/main/assets/images/genre-boxes.jpg)
 
+- __The Sign Up and Contact Section__ 
+-  The Sign up form and contact section were align one beside the other. 
+-  In the Sign up form the user will have to input first name, last name and email
+-  The Contact Section show where you can find us, either post address, phone or email.
+-  The contact Section also contains all the links for our social media. All those links were tested and open in new tabs.
+
+![Sign Up and Contact](https://github.com/ruimarnjr/the-book-squad/blob/main/assets/images/sign-up-and-contact.jpg)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section I used the same color as the whole website to keep the pattern and also you can see it is attached to the section above do the desing looks clean.
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
 ## Technologies Used
 - __The Sign Up Page__
@@ -87,20 +87,14 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-### Features Left to Implement
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-- Another feature idea
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 ## Testing 
 
-1. Contact form:
-    1. Go to the "Contact Us" page
+1. Sign Up form:
+    1. Go to the "Contact" page
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
@@ -149,34 +143,15 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The text for the Home page was taken from Wikipeda
+- Instructions on how to implement form validation on the Sign Up page was taken from a walkthrough project called Coders Coffehouse.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from [Pexels] (https://www.pexels.com/)
 
 ### Acknowledgements
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The photos used on the home and about us page are from This Open Source site: Pexels
 
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-- I received inspiration for this project from X
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
