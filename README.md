@@ -90,9 +90,9 @@ This section is also where you would share links to any wireframes, mockups, dia
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fruimarnjr.github.io%2Fthe-book-squad%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fruimarnjr.github.io%2Fthe-book-squad%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 
 ### Lighthouse Validator Testing 
@@ -117,13 +117,30 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 The live link can be found here [The Book Squad](<https://ruimarnjr.github.io/the-book-squad/>)
 
+The Repository can be found here [Repository](https://github.com/ruimarnjr/the-book-squad)
+
+### Forking
+
+- Go to the GitHub repository that you want to fork. This is the repository that you wish to create a personal copy of.
+- On the top-right corner of the repository page, you'll find a button labeled "Fork". Click on the "Fork" button to initiate the forking process. This will create a duplicate copy of the repository under your own GitHub account.
+- GitHub will process the forking request, creating a separate copy of the repository within your account. Once the forking process is complete, you will be redirected to the newly created forked repository.
+
+### Cloning 
+
+- On the GitHub repository page, click on the green "Code" button located towards the top-right of the page. This will display a dropdown menu. Click on the clipboard icon to copy the repository's URL to your clipboard.
+- Open your preferred terminal or command prompt on your local machine. Ensure you have Git installed and configured properly.
+- Use the cd command in the terminal to navigate to the directory where you want to clone the repository. For example, if you want to clone the repository into your "Documents" folder, you would use the command: cd Documents.
+- In the terminal, use the git clone command followed by the repository URL you copied in step 1.
+- Press Enter to execute the git clone command. Git will connect to the remote repository and download a copy of the entire repository, including all its files, commit history, and branches, to your local machine.
+- Once the cloning process is complete, you will see a message indicating that the repository has been successfully cloned to your local machine. You can now navigate to the cloned repository using the terminal.
 
 ## Credits
-The code for the home page and sig up section was taken from the CI [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html) Project
+The code for the home page and sig up section was taken from the CI [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html) Project.
+
+The template for this README was based on [Love Running Readme Template](https://github.com/Code-Institute-Solutions/readme-template) and also a project called Coding Club which is shown on the Portifolio 1 lesson.
 
 ### Content 
 
-- The text for the Home page was taken from Wikipeda
 - Instructions on how to implement form validation on the Sign Up page was taken from a walkthrough project called Coders Coffehouse that I Was guided during the HTML and CSS lessons.
 - The icons in the let's meet section and footer were taken from [Font Awesome](https://fontawesome.com/)
 
