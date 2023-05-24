@@ -51,9 +51,12 @@ In this section, you should go over the different parts of your project, and des
 - __Let's Meet! Section__
 
   - This section will allow the user to see exactly when the meetups will happen, where they will be located and what they will be discussing in the meetings.
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section will be updated as these times change to keep the user up to date.
+  - It also includes 8 boxes with the genres that are usually discussed in the meetings. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Meeting Times](https://github.com/ruimarnjr/the-book-squad/blob/main/assets/images/lets-meet.jpg)
+![Genre Boxes](https://github.com/ruimarnjr/the-book-squad/blob/main/assets/images/genre-boxes.jpg)
+
 
 - __The Footer__ 
 
