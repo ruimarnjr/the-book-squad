@@ -4,6 +4,8 @@ The Book Squad is engaging book club created to foster a love for reading and co
 
 The Book Squad is designed for avid readers and book lovers in Dublin. Whether you're a seasoned bibliophile, a casual reader, or someone looking to explore the world of books, The Book Squad is the ideal community for you. We welcome individuals of all ages, backgrounds, and reading preferences, creating an inclusive environment where diverse perspectives are celebrated.
 
+![Responsive Mockup](https://github.com/ruimarnjr/the-book-squad/blob/main/assets/images/the-book-squad.jpg)
+
 ## UX
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -11,30 +13,19 @@ For example; Love Running is a site that hopes to help keep people motivated to 
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
-![Responsive Mockup](https://github.com/ruimarnjr/the-book-squad/blob/main/assets/images/the-book-squad.jpg)
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-## Features 
+This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser. 
 
 ## Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 - __Navigation Bar__
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
-
-### Features Left to Implement
-- Another feature idea
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+  - Featured at the top of the page, the navigation shows the name name in the left corner: THE BOOK SQUAD, that links to the top of the page.
+  - The other navigation links are to the right, Home, About Us, Let's Meet! and Contact which links to different sections of the same page.
+  - The navigation is in a font that looks reliable and a color that contrasts with the background. 
 
 - __The landing page image__
 
