@@ -56,11 +56,12 @@ In this section, you should go over the different parts of your project, and des
 ![Meeting Times](https://github.com/ruimarnjr/the-book-squad/blob/main/assets/images/lets-meet.jpg)
 ![Genre Boxes](https://github.com/ruimarnjr/the-book-squad/blob/main/assets/images/genre-boxes.jpg)
 
-- __The Sign Up and Contact Section__ 
--  The Sign up form and contact section were align one beside the other. 
--  In the Sign up form the user will have to input first name, last name and email
--  The Contact Section show where you can find us, either post address, phone or email.
--  The contact Section also contains all the links for our social media. All those links were tested and open in new tabs.
+- __The Sign Up and Contact Section__
+ 
+  - The Sign up form and contact section were align one beside the other.   
+  -  In the Sign up form the user will have to input first name, last name and email
+  -  The Contact Section show where you can find us, either post address, phone or email.
+  -  The contact Section also contains all the links for our social media. All those links were tested and open in new tabs.
 
 ![Sign Up and Contact](https://github.com/ruimarnjr/the-book-squad/blob/main/assets/images/sign-up-and-contact.jpg)
 
@@ -68,7 +69,7 @@ In this section, you should go over the different parts of your project, and des
 
   - The footer section I used the same color as the whole website to keep the pattern and also you can see it is attached to the section above do the desing looks clean.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/lucyrush/readme-template/blob/master/media/footer.png)
 
 
 ## Technologies Used
@@ -82,11 +83,6 @@ In this section, you should mention all of the languages, frameworks, libraries,
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
-
-## Testing
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 ## Testing 
 
@@ -110,7 +106,7 @@ If this section grows too long, you may want to split it off into a separate fil
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-### Unfixed Bugs
+### Bugs
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
@@ -121,37 +117,23 @@ This section should describe the process you went through to deploy the project 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - From the source section drop-down menu, select the Main/Master Branch
+  - Once the main/master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here [The Book Squad](<https://ruimarnjr.github.io/the-book-squad/>)
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-## Credits 
 
 ## Credits
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+The code for the home page and sig up section was taken from the CI [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html) Project
 
 ### Content 
 
 - The text for the Home page was taken from Wikipeda
-- Instructions on how to implement form validation on the Sign Up page was taken from a walkthrough project called Coders Coffehouse.
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Instructions on how to implement form validation on the Sign Up page was taken from a walkthrough project called Coders Coffehouse that I Was guided during the HTML and CSS lessons.
+- The icons in the let's meet section and footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
-- The photos used in this site were obtained from [Pexels] (https://www.pexels.com/)
-
-### Acknowledgements
-- The photos used on the home and about us page are from This Open Source site: Pexels
+- The photos used in this site were obtained from [Pexels](https://www.pexels.com/)
 
 
 
