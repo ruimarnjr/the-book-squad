@@ -43,8 +43,9 @@ In this section, you should go over the different parts of your project, and des
   - The About Us section will allow the user to get to know a bit more the people who createad the group. I createad this section just for the user to get more familiar and feel more confortable with the people that he will be dealing with when joining the club.
   - This user will see the value of signing up for the The Book Squad meetups. This should encourage the user to want to be part of something that everyone around him is passionate about. 
 
-![About us 1](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-![About us 1](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![About us 1](https://github.com/ruimarnjr/the-book-squad/blob/main/assets/images/about-us-1.jpg)
+![About us 2](https://github.com/ruimarnjr/the-book-squad/blob/main/assets/images/about-us-2.jpg)
+
 
 - __Meetup Times section__
 
