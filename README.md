@@ -8,20 +8,18 @@ The Book Squad is designed for avid readers and book lovers in Dublin. Whether y
 
 ## UX
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+The Book Squad is a website focused on people who love reading and enjoy discussing books. As I am one of those people, I wanted to create something that I could understand and feel connected to. The club was created by three friends who are seeking people to share experiences, have a laugh, talk about various topics, and celebrate together.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
+- As a book enthusiast, I want to browse and discover new book recommendations, so that I can expand my reading list.
+- As a member of The Book Squad, I want to participate in book discussions and share my thoughts, so that I can engage with other passionate readers.
+- As a user, I want to create a personal reading profile and track the books I've read, so that I can keep a record of my reading journey.
+- As a user, I want to receive notifications or updates about upcoming book releases and author events, so that I can stay informed and plan my reading schedule.
+- As a book club member, I want to suggest and vote on books for our next reading selection, so that we can collectively decide on our future reads.
+- As a user, I want to connect with other book lovers in my local area, so that I can organize or join book-related meetups or events.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser. 
 
 # Features
   
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
 - __Navigation Bar__
 
   - Featured at the top of the page, the navigation shows the name name in the left corner: THE BOOK SQUAD, that links to the top of the page.
@@ -33,8 +31,7 @@ In this section, you should go over the different parts of your project, and des
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing includes a photograph of people reading in a library.
 
 ![landing-image](https://github.com/ruimarnjr/the-book-squad/blob/main/assets/images/landing-page-image.jpg)
 
@@ -59,7 +56,7 @@ In this section, you should go over the different parts of your project, and des
 - __The Sign Up and Contact Section__
  
   - The Sign up form and contact section were align one beside the other.   
-  -  In the Sign up form the user will have to input first name, last name and email
+  -  In the Sign up form the user will have to input first name, last name and email.
   -  The Contact Section show where you can find us, either post address, phone or email.
   -  The contact Section also contains all the links for our social media. All those links were tested and open in new tabs.
 
@@ -67,22 +64,15 @@ In this section, you should go over the different parts of your project, and des
 
 - __The Footer__ 
 
-  - The footer section I used the same color as the whole website to keep the pattern and also you can see it is attached to the section above do the desing looks clean.
+  - The footer section I used the same color as the whole website to keep the pattern and also you can see it is attached to the section above for the desing looks clean.
 
 ![Footer](https://github.com/ruimarnjr/the-book-squad/blob/main/assets/images/footer.jpg)
 
 
 ## Technologies Used
-- __The Sign Up Page__
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
+- This website was developed using HTML and CSS.
+- I used [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) to do the genre boxes in the Let's Meet section.
 
 ## Testing 
 
@@ -92,11 +82,9 @@ For some/all of your features, you may choose to reference the specific project 
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- I tested this website in browsers such as Chrome, Mozilla Firefox, Microsoft Edge and Safari and it worked in all of them.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- I tested the page for large, medium and small screen sizes and I confirm that the text is rideable and the images display perfectly.
 
 
 ### Validator Testing 
@@ -109,16 +97,18 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Lighthouse Validator Testing 
 
+- I can confirm that that colors and fonts chosen are easy to read and understand by using the Lighthouse Validator.
+
 ![Lighthouse-Validator](https://github.com/ruimarnjr/the-book-squad/blob/main/assets/images/lighthouse-validator.jpg)
 
 ### Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+- Sign up and contact section to small screens - fixed
+- Let's meet heading section - fixed
+- Unwanted horizontal scroll - fixed
+- About us media queries for 1200px screen sizes - fixed
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
