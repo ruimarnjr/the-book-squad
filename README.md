@@ -27,7 +27,7 @@ In this section, you should go over the different parts of your project, and des
   - The other navigation links are to the right, Home, About Us, Let's Meet! and Contact which links to different sections of the same page.
   - The navigation is in a font that looks reliable and a color that contrasts with the background.
 
-!![nav-bar](https://raw.github.com/ruimarnjr/the-book-squad/main/assets/images/the-book-squad.jpg)
+![nav-bar](https://raw.github.com/ruimarnjr/the-book-squad/main/assets/images/the-book-squad-nav.jpg)
 
 - __The landing page image__
 
