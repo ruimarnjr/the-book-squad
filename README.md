@@ -1,6 +1,6 @@
 # The Book Squad
 
-The Book Squad is engaging book club created to foster a love for reading and connect book enthusiasts in Dublin, Ireland. Our club is dedicated to bringing together individuals who share a passion for literature, offering a platform for intellectual discussions, social interaction, and personal growth. At The Book Squad, we believe that books have the power to inspire, challenge, and unite us.
+The Book Squad is an engaging book club created to foster a love for reading and connect book enthusiasts in Dublin, Ireland. Our club is dedicated to bringing together individuals who share a passion for literature, offering a platform for intellectual discussions, social interaction, and personal growth. At The Book Squad, we believe that books have the power to inspire, challenge, and unite us.
 
 The Book Squad is designed for avid readers and book lovers in Dublin. Whether you're a seasoned bibliophile, a casual reader, or someone looking to explore the world of books, The Book Squad is the ideal community for you. We welcome individuals of all ages, backgrounds, and reading preferences, creating an inclusive environment where diverse perspectives are celebrated.
 
@@ -56,8 +56,8 @@ This section is also where you would share links to any wireframes, mockups, dia
 - __The Sign Up and Contact Section__
  
   - The Sign up form and contact section were align one beside the other.   
-  -  In the Sign up form the user will have to input first name, last name and email.
-  -  The Contact Section show where you can find us, either post address, phone or email.
+- In the Sign up form the user will have to input first name, last name and email.
+- The Contact Section show where you can find us, either post address, phone or email.
   -  The contact Section also contains all the links for our social media. All those links were tested and open in new tabs.
 
 ![Sign Up and Contact](https://github.com/ruimarnjr/the-book-squad/blob/main/assets/images/sign-up-and-contact.jpg)
@@ -84,7 +84,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 - I tested this website in browsers such as Chrome, Mozilla Firefox, Microsoft Edge and Safari and it worked in all of them.
 
-- I tested the page for large, medium and small screen sizes and I confirm that the text is rideable and the images display perfectly.
+- I tested the page for large, medium and small screen sizes and I confirm that the text is readable and the images display perfectly.
 
 
 ### Validator Testing 
